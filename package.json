@@ -1,0 +1,48 @@
+{
+  "name": "currency-exchange",
+  "homepage": "",
+  "version": "1.0.0",
+  "description": "TODO",
+  "private": true,
+  "keywords": [
+    "react-globe",
+    "webgl",
+    "visualization",
+    "globe",
+    "react"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "d3": "^7.9.0",
+    "dayjs": "^1.8.29",
+    "globe.gl": "^2.12.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^5.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
